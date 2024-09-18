@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    flex-direction: column; /* Ensure the header and form are vertically aligned */
+}
+
+.form-format {
+    padding: 10px;
+    display: flex; /* Lay out the radio buttons and labels horizontally */
+    gap: 10px; /* Reduced the spacing between the buttons */
+}
+
+h {
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(12, 66, 51);
+    padding: 20px;
+}

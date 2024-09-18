@@ -1,0 +1,55 @@
+.input-container {
+    display: flex; /* Use flexbox for layout */
+    width: 100%; /* Full width of the parent container */
+    justify-content: flex-start; /* Align items to the start of the container */
+    padding: 0; /* Remove any padding */
+    margin: 0; /* Remove any margin */
+}
+
+.align-vertical {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    width: 100%; /* Ensure full width for input stretching */
+}
+
+.h4 {
+    margin-left: 20px;
+    
+}
+
+input {
+    /* Allow the input to grow and take up remaining space */
+    text-align: left;
+     /* Add some padding inside the input */
+    border: 1px solid #ccc; /* Add a border to the input */
+    border-radius: 4px; /* Optional: add rounded corners */
+    /* Make sure the input takes the remaining space */
+}
+
+.textarea-container {
+    display: block; /* Make sure it's treated as a block element */
+    width: 100%; /* Full width to ensure it takes up a new line */
+    margin-top: 20px; /* Add space above if needed */
+}
+
+.row {
+    display: flex;
+    flex-direction: column; /* Stack label and textarea vertically */
+}
+
+.col-25, .col-75 {
+    width: 100%; /* Ensure full width for both columns */
+}
+
+textarea {
+     /* Make the textarea take the full width of its container */
+    padding: 10px; /* Add padding for better readability */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical; /* Allow vertical resizing */
+    margin-left: 20px;
+}
+
+h4{
+    margin-right: 10px;
+}

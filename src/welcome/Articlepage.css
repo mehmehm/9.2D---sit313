@@ -1,0 +1,39 @@
+.image-section {
+    display: flex;
+    align-items: center; /* Align the input and buttons horizontally */
+    justify-content: flex-start; /* Ensure everything stays at the start (left) */
+    width: fit-content; /* Adjust width to fit content */
+    position: relative; /* Position the component */
+    width: fit-content;
+    
+}
+
+.button-stack {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px; /* Space between input and buttons */
+    margin-top: 50px;
+}
+
+button {
+    margin-bottom: 5px; /* Space between the buttons */
+}
+
+label{
+    max-width: fit-content;
+}
+
+.center-button {
+    display: flex; /* Apply flexbox */
+    justify-content: center; /* Horizontally center the button */
+    width: 100%; /* Take the full width */
+    /* Add some padding to space the button */
+}
+
+.post-button {
+    /* You can customize the button styles if needed, but no need for centering here */
+    padding: 15px 35px; /* Example: Button padding */
+    font-size: 16px;
+    
+}
+

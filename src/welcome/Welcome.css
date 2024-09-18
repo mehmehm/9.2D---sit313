@@ -1,0 +1,19 @@
+  .signout-button {
+    background-color: #dadada;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-bottom: 20px; /* Adds space between the button and message-box */
+  }
+
+  .align-right{
+    display:flex;
+    justify-content: flex-start;
+}
+  
+  .signout-button:hover {
+    background-color: #c5c5c5;
+  }
+  

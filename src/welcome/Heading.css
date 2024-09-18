@@ -1,0 +1,11 @@
+.Header{
+    padding:1px;
+    background-color: pink;
+    width: 100%;
+}
+
+heading-font{
+    font-size:large;
+    font-weight: bold;
+    color: rgb(12, 66, 51);
+}

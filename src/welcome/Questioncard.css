@@ -1,0 +1,42 @@
+.title {
+    font-size:larger;
+    margin-bottom: 10px;
+}
+
+.card-container{
+    background-color: rgb(248, 166, 181, 0.25);
+    box-shadow: 5cap;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.question-button{
+    margin-right: 10px;
+    padding: 3px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.fit-content{
+    margin-left: 10px;
+}
+
+.fit-content-bold{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.collapsed {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-height: 60px; /* Adjust this height as needed */
+}
+
+/* Set no height restriction for expanded cards */
+.expanded {
+    white-space: normal;
+    max-height: none;
+}
