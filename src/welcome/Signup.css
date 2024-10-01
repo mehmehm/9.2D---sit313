@@ -1,0 +1,66 @@
+h1 {
+    position: relative;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium';
+    color: #f3fffd;
+}
+
+h2 {
+    font-family: Arial;
+    color: #068075;
+    font-size: larger;
+}
+h3 {
+    font-family: Arial;
+    color: #068075;
+    font-size: medium;
+}
+p{
+    font-family: Arial;
+}
+
+.container{
+    text-align: center;
+}
+
+.flex-container-signup{
+    display: flex;
+    background-color: #d85990;
+    justify-content: center;
+}
+.flex-container-signup > hugeText{
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium';
+    color: #f3fffd;
+}
+
+.flex-container-signup > smallText {
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    color: bisque;
+}
+
+.input-signup[type=text] {
+    width: 250px;
+    padding: 7px 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #fae2d1;
+    color: rgb(134, 66, 87);
+  }
+
+  input[type=submit] {
+    width: 100px;
+    padding: 7px 15px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #bff5e2;
+    color: rgb(134, 66, 87);
+    font-family: 'Franklin Gothic Medium';
+    font-size:small;
+  }

@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import "./Welcome.css";
+import "./Post.css";
 import Heading from './Heading';
 import AddCardInput from "./AddCardInput";
 import Textarea from "./Textarea";

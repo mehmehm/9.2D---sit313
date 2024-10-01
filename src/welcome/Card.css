@@ -1,0 +1,13 @@
+.avatar{
+    width: 200px;
+    height: 200px;
+}
+
+.row-list{
+    display: flex;
+}
+
+.column-list{
+    flex: 33.33%;
+    padding: 5px;
+}

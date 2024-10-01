@@ -1,0 +1,94 @@
+.pricing-container {
+    text-align: center;
+    padding: 50px;
+  }
+
+  .pricing-container button {
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+
+  .pricing-container h1{
+    color: black;
+  }
+  
+  .plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .plan {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  .plan h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(12, 87, 60);
+  }
+  
+  .plan .price {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .plan ul {
+    list-style-type: none;
+    padding: 0;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .plan ul li {
+    margin: 5px 0;
+  }
+  
+  .plan button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .plan button:hover {
+    background-color: #0056b3;
+  }
+
+  .welcome-background {
+    background-color: bisque;
+    margin: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .success-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: -12%;
+}
+
+  .success-container h1{
+    color: black;
+  }
+
+  .success-container button{
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  

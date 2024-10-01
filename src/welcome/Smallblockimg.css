@@ -1,0 +1,28 @@
+.icon{
+    width:40px;
+    height:40px;
+    display: flex;
+}
+
+.row-endblocklist{
+    display: flex;
+}
+
+.row-endblocklist-img{
+    display: flex;
+    margin-left: 35%;
+}
+
+.column-endblocklist{
+    flex: 33.33%;
+    padding: 50px;
+}
+
+
+.background-endblocklist{
+    background-color: rgb(125, 216, 201);
+}
+
+.h3-endblocklist{
+    color: rgb(138, 36, 78);
+}

@@ -7,7 +7,7 @@ function Homepage() {
     
     return(
         <div>
-            <Navbar />
+         
             <Outlet />
         </div>       
     );
